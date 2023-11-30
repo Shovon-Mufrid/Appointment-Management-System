@@ -1,9 +1,9 @@
 ## How To Setup
 ```
-git clone https://github.com/sajib1066/event-calendar.git
+git clone https://github.com/Shovon-Mufrid/Event_Manager.git
 ```
 ```
-cd event-calendar
+cd Event_Manager
 ```
 ```
 python3 -m venv venv
