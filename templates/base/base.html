@@ -28,11 +28,13 @@
     <body class="app sidebar-mini">
         <!-- Navbar-->
         <header class="app-header">
-            <a class="app-header__logo" href="#">Event Calendar</a>
+            <a class="app-header__logo" href="#">DynamiX</a>
             <!-- Sidebar toggle button-->
             <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
             <!-- Navbar Right Menu-->
+            
             <ul class="app-nav">
+                <li style="color: white; margin-right: 10px; margin-top: 15px; ">V1.8.33</li>
                 <li class="app-search">
                     <input class="app-search__input" type="search" placeholder="Search" />
                     <button class="app-search__button"><i class="fa fa-search"></i></button>
@@ -144,7 +146,7 @@
             </div>
             <ul class="app-menu">
                 <li>
-                    <a class="app-menu__item active" href="{% url 'dashboard' %}"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a>
+                    <a class="app-menu__item" href="{% url 'dashboard' %}"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a>
                 </li>
                 <li>
                     <a class="app-menu__item" href="{% url 'calendarapp:calendar' %}"><i class="app-menu__icon fa fa-calendar"></i><span class="app-menu__label">Calendar</span></a>
