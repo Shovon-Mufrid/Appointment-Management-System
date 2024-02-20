@@ -3,9 +3,6 @@
 git clone https://github.com/Shovon-Mufrid/Event_Manager.git
 ```
 ```
-cd Event_Manager
-```
-```
 python3 -m venv venv
 ```
 ```
