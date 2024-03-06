@@ -2,7 +2,7 @@
 <html lang="en">
 	{% load static %}
     <head>
-        <title>Sign Up | Event Calendar</title>
+        <title>Sign Up | Dynamix</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -20,15 +20,15 @@
                         <div class="wrap d-md-flex">
                             <div class="text-wrap p-4 p-lg-5 d-flex img" style="background-image: url({% static 'images/bg.jpg' %});">
                                 <div class="text w-100">
-                                    <h2 class="mb-4">Welcome to Event Calendar</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <h2 class="mb-4 text-dark">Appointment Management System</h2>
+                                    <!-- <p class="mb-4 text-dark"></p> -->
                                 </div>
                             </div>
                             <div class="login-wrap p-4 p-md-5">
                                 <div class="row justify-content-center py-md-5">
                                     <div class="col-lg-9">
                                         <div class="social-wrap">
-                                            <h3 class="mb-3 text-center">Signup with this services</h3>
+                                            <h3 class="mb-3 text-center text-info">Registration</h3>
                                             <p class="social-media d-flex justify-content-center">
                                                 <a href="#" class="social-icon google d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a>
                                                 <a href="#" class="social-icon facebook d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
@@ -57,7 +57,7 @@
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <label class="label" for="password">Password</label>
+                                                        <label class="label" for="password">Confirm Password</label>
                                                         {{ form.password2 }}
                                                         <span class="text-danger">{{ form.errors.password2 }}</span>
                                                     </div>
@@ -65,7 +65,7 @@
                                                 <div class="col-md-12 my-4">
                                                     <div class="form-group">
                                                         <div class="w-100">
-                                                            <label class="checkbox-wrap checkbox-primary">
+                                                            <label class="checkbox-wrap checkbox-dark">
                                                                 I agree all statements in terms of service
                                                                 <input type="checkbox" checked />
                                                                 <span class="checkmark"></span>
@@ -75,13 +75,13 @@
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <button type="submit" class="btn btn-primary">Create an account</button>
+                                                        <button type="submit" class="btn btn-info">Create an account</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
                                         <div class="w-100">
-                                            <p class="mt-4">I'm already a member! <a href="{% url 'accounts:signin' %}">Sign In</a></p>
+                                            <p class="mt-4">I'm already a member! <a class="text-info" href="{% url 'accounts:signin' %}">Sign In</a></p>
                                         </div>
                                     </div>
                                 </div>

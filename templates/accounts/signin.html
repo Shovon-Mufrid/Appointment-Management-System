@@ -2,7 +2,7 @@
 <html lang="en">
 	{% load static %}
     <head>
-        <title>Sign In | Event Calendar</title>
+        <title>Sign In | Dynamix</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -12,31 +12,23 @@
 
         <link rel="stylesheet" href="{% static 'css/accounts.css' %}" />
     </head>
-    <body>
-        <section class="ftco-section">
+    <body  style="background-color: #232324;">
+        <section class="ftco-section" style="margin-top: 20px; background-color: #232324;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-12">
-                        <div class="wrap d-md-flex">
-                            <div class="text-wrap p-4 p-lg-5 d-flex img" style="background-image: url({% static 'images/bg.jpg' %});">
+                    <!-- <div class="col-md-12"> -->
+                        <!-- <div class="wrap d-md-flex"> -->
+                            <!-- <div class="text-wrap p-4 p-lg-5 d-flex img" style="background-image: url({% static 'images/bg.jpg' %});">
                                 <div class="text w-100">
-                                    <h2 class="mb-4">Welcome to Event Calendar</h2>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <h1 class="mb-4 text-secondary" style="margin-top: 2px;">Appointment Management System</h1>
+                                    <p class="text-dark">Appointment Management System</p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="login-wrap p-4 p-md-5">
                                 <div class="row justify-content-center py-md-5">
                                     <div class="col-lg-9">
                                         <div class="social-wrap">
-                                            <h3 class="mb-3 text-center">Signin with this services</h3>
-                                            <p class="social-media d-flex justify-content-center">
-                                                <a href="#" class="social-icon google d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a>
-                                                <a href="#" class="social-icon facebook d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-                                                <a href="#" class="social-icon twitter d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
-                                            </p>
-                                            <p class="or">
-                                                <span>or</span>
-                                            </p>
+                                            <h2 class="mb-3 text-center"><u>Sign In</u></h2>
                                         </div>
                                         <form action="#" method="post" class="signup-form">
                                             {% csrf_token %}
@@ -55,19 +47,29 @@
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <button type="submit" class="btn btn-primary">Sign In</button>
+                                                        <button type="submit" class="btn btn-info">Sign In</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
-                                        <div class="w-100">
-                                            <p class="mt-4">New in event calendar? <a href="{% url 'accounts:signup' %}">Sign Up</a></p>
+                                        <!-- <div class="social-wrap">                               
+                                            <p class="or">
+                                                <span>or</span>
+                                            </p>
                                         </div>
+                                        <p class="social-media d-flex justify-content-center">
+                                            <a href="#" class="social-icon google d-flex align-items-center justify-content-center"><span class="fa fa-google"></span></a>
+                                            <a href="#" class="social-icon facebook d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+                                            <a href="#" class="social-icon twitter d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+                                        </p> -->
+                                        <!-- <div class="w-100">
+                                            <p class="mt-4">New in event calendar? <a class="text-info" href="#">Sign Up</a></p>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        <!-- </div> -->
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
