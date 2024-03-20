@@ -1,6 +1,6 @@
 ## How To Setup
 ```
-git clone https://github.com/Shovon-Mufrid/Event_Manager.git
+git clone https://github.com/Shovon-Mufrid/Appointment-Management-System.git
 ```
 ```
 python3 -m venv venv
